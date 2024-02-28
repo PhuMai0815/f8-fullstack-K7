@@ -1,0 +1,19 @@
+form {
+    width: 500px;
+  }
+  form > div {
+    display: flex;
+  }
+  form > div > label {
+    display: block;
+    width: 110px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+  form > div > input {
+    height: 20px;
+    width: 40%;
+  }
+  .items > label {
+    display: block;
+  }

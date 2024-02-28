@@ -1,0 +1,36 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .feedback {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+  }
+  .feedback > h2 {
+    font-size: 32px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+  }
+  .feedback-list {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .feedback-items {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 30%;
+  }
+  .feedback-items > img {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  .feedback-items > div > q {
+    color: rgb(145, 145, 145);
+  }
+  .feedback-items > div > h3 {
+    font-size: 16px;
+  }
