@@ -1,0 +1,38 @@
+/* SELECTOR cùng cấp (Cùng trong 1 thẻ html) selector1selector2selector 
+==> Lưu ý: không cần quan tâm đến thứ tự (Trừ trường hợp sử dụng tagname phải ở đầu)
+a.link#link --> Chọn thẻ a có class = link và id = link
+Ứng dụng:
+- trong các tình huống không thể sửa Html
+- Đẩy độ ưu tiên lên cao hơn
+/* */
+/* h1.title {
+    color: red;
+}
+h2.title {
+    color: green;
+}
+/* Selector nằm sau (nguyên tắc: phải cùng cấp) */
+/* ul ~ p {
+    color: red;
+}
+
+.todos input:checked ~ span {
+    text-decoration: line-through;
+} */
+/* p + h2 {
+    color: blue;
+}
+p + h2 + h2 {
+    color:red;
+}
+h2 + h2 {
+    color: greenyellow;
+}  */
+/*
+Seclector gộp: ,
+Nhiều selector sử dụng chung 1 block code 
+ */
+ p + h2,
+ p + h2 + h2 {
+    color: red;
+ }

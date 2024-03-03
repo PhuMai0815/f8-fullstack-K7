@@ -41,3 +41,7 @@
     .menu  ul a {
         color:green;
     }
+
+    .todos input:checked ~ span {
+        text-decoration: line-through;
+    }
