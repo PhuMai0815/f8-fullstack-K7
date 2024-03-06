@@ -1,0 +1,21 @@
+/*  
+font-size: thay đổi cỡ chữ
+Cú pháp: font-size: value + init
+- px
+- em
+- rem
+Nên dùng đơn vị tương đối vì còn xây dựng mô hình mobile
+Lưu ý: font-size là thuộc tính kế thừa
+*/
+html {
+    font-size: 63.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+.content h2 {
+    font-size: 2.9rem;
+}
+.content h2 {
+    font-size: 2.9rem;
+}

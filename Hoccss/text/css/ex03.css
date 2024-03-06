@@ -1,0 +1,16 @@
+/*  
+Thuộc tính line-height: thiết lập chiều cao của dòng chữ
+Cú pháp: line-height: value + unit hoặc value
+
+Thuộc tính font-family: thiết lập font chữ cho văn bản
+Cú pháp: font-family: font1, font2, font3,...
+font nào có dấu cách phải đưa vào ""
+*/
+/* .content {
+    font-size: 30px;
+    line-height: 1.5;
+} */
+@font-face {
+    font-family: OpenSans;
+    src: url();
+}
