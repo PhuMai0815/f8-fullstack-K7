@@ -1,0 +1,27 @@
+/* 
+background-color
+background-image
+background-repeat
+background-position
+background-size
+background-attachment
+background
+*/
+/* body {
+    background-color: aqua;
+} */
+body {
+    height: 2000px;
+}
+ .box {
+    height: 300px;
+    /* background-color: rgba(164, 85, 63, 0.897); */
+    /* background-image: url(https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI);
+    background-repeat: no-repeat;
+    /* background-position: 20px 40px; */
+    background: fixed rgba(164, 85, 63, 0.897) url("https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI") no-repeat 0 0 / cover; 
+}
+
+.icon {
+    background-image: url();
+}

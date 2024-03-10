@@ -1,0 +1,29 @@
+/* 
+Border: Tạo đường viền cho thẻ html
+- border-wight 
+- border-style: none | solid | dotted | dashed | 
+- border color
+- border-top-width
+- border-left-width
+- border-right-style
+- border-bottom-style
+- border-top-color
+- border-left-color
+- border-right-color
+- border-bottom-color
+- border: style width color
+- border-top: style width color
+- border-left: style width color
+- border-right: style width color
+- border-bottom: style width color
+ 
+  */
+.box {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red green blueviolet blue;
+    border-top: solid rgb(85, 28, 28);
+    border-left: solid rgb(85, 28, 28);
+    border-top: solid rgb(85, 28, 28);
+
+}
