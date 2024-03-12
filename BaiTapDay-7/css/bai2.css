@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: asap;
+    src: url(../fonts/Asap-VariableFont_wdth\,wght.ttf);
+}
+
+html {
+    font-family: asap;
+}
+
+.bia1 {
+    width: 100vw;
+    height: 45vh;
+    background-image: url(../css/bia1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-color: rgba(241, 28, 28, 0.3);
+}
+
+.box {
+    left: 5%;
+    top: 65%;
+    width: fit-content;
+    display: flex;
+    position: relative;
+}
+
+.logo {
+    width: 200px;
+    height: 180px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>img {
+    width: 120px;
+}
+
+.NoiDung {
+    padding-left: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.NoiDung>p {
+    display: inline-block;
+    padding-top: 35px;
+    padding-right: 25px;
+}
+
+.box2 {
+    float: right;
+    text-transform: uppercase;
+}
+
+.box2>ul>li {
+    display: inline-block;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.box2>ul>li>label {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.a:hover~label {
+    color: #ff0400;
+    border-bottom: 3px solid #ff0400;
+}
+
+.a:checked~label {
+    color: #ff0400;
+    border-bottom: 3px solid #ff0400;
+}
