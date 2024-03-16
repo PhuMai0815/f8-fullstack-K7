@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+.heading  {
+    text-align: center;
+}
+
+.heading h1 {
+    text-transform:capitalize;
+    padding: 10px;
+}
+.service-layout {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.service-item {
+    padding: 12px 16px;
+    margin-top:16px;
+    flex-basis: 30%;
+    text-align:center;
+}
+
+.title-item {
+    text-transform:capitalize;
+}
+
+.service-item p {
+    padding: 10px;
+}
+
+.read-more {
+    background: blue;
+    color: #fff;
+    padding: 5px;  
+}
+
+.read-more p {
+    padding: 5px 10px;
+    text-transform:capitalize;
+}

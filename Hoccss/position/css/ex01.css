@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 30px auto;
+    position: relative;
+}
+
+.box .item {
+    background: green;
+    color: #fff;
+    /* margin: 10px; */
+    padding: 10px;
+    width: 100px;
+}
+
+.item:nth-child(2) {
+    background: blueviolet;
+    /* position: relative;
+    top: 20px;
+    left: 20px; */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.overlay {
+    position: absolute;
+    width: auto;
+    height: auto;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    inset: 0;
+    background: rgba(255, 225, 0, 0.688);
+}
+
+/* 
+Thuộc tính position: căn chỉnh vị trí các element trong trang web
+- static: Mặc định 
+- relatic: Vị trí tương đối với vị trí ban đầu
+- absoute: Vị trí tuyệt đối
+- fixed: Vị trí cố định khi kéo thanh cuộn (scrolling)
+
+thuộc tính khi sử dụng với position (trừ static)
+- top: trên
+- left: trái
+- right: phải
+- buttom: dưới
+- z-index: vị trí theo trục z
+- inset: 
+
+*/
