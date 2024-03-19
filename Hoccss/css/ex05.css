@@ -21,20 +21,50 @@ Lưu ý: - focus chỉ áp dụng với form
 .btn:focus {
     background: blue;
 } */
-/* input:focus::placeholder {
+ /* input:focus::placeholder {
     color: red;
  }
 input:hover::placeholder {
     font-style: italic;
 }
- /* h1:focus {
-    color:red; }*/
- /* .products .item=:not(active):not(.inactive) {
+ h1:focus {
+    color:red; }
+.products .item=:not(active):not(.inactive) {
     color:red;
  }
- .products h2:last-of-type {
-    color: green;
+
+ .btn {
+   background:green;
+   border: 0;
  } */
- .products h2:nth-child(5) {
-    color: red;
+
+ input[type="checkbox"]:checked ~ span {
+   text-decoration: line-through;
+   color: blue;
  }
+ input[type="checkbox"]:checked:disabled ~ span {
+color: gray;
+ }
+
+ .products h2:first-child {
+   color: red;
+ }
+ .products h2:last-child {
+   color: greenyellow;
+ }
+ 
+.products h2:first-of-type {
+    color: green;
+ } 
+.products h2:last-of-type {
+    color: goldenrod;
+ } 
+ .products h2:nth-child(5) {
+    color: blue;
+ } 
+ .products h2:nth-child(2n + 2) {
+    color: rgb(0, 255, 110);
+ } 
+ .products h2:nth-of-type(2n+2) {
+    color: rgb(173, 249, 23);
+ } 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bai3.css">
+</head>
+<body>
+   <div class="grid">
+        <h2>drop us a line</h2>
+        <p>
+            Reach out to us from our contact form and we will get back to you shortly
+        </p>
+            <form>
+                <div class="dong">
+                    <div class="cot">
+                        <input type="text" name="fistname" required>
+                        <label class="placeholder" >First name *</label>
+                    </div>
+                    <div class="cot">
+                        <input type="text" name="lastname" required>
+                        <label class="placeholder">Last name *</label>
+                    </div>
+                </div>
+                <div class="dong">
+                    <div  class="cot">
+                         <input type="text" name="email" required>
+                         <label class="placeholder">Email *</label>
+                    </div>
+                    <div class="cot">
+                        <select name="option" id="option" required>
+                            <option value disabled>Select department</option>
+                            <option value="1" selected>Sale</option>
+                            <option value="2">Marketing</option>
+                            <option value="3">Customer support</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="dong">
+                      <div class="cot">
+                          <textarea name="message" id="" cols="30" rows="10"></textarea>
+                            <label class="placeholder">Message</label>
+                      </div>
+                </div>
+                <div class="dong">
+                    <div class="cot">
+                        <button>send message</button>
+                    </div>
+                </div> 
+            </form>   
+    </div>       
+</body>
+</html>

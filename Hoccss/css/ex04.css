@@ -1,10 +1,11 @@
 /* 
 Thành phần giả 
-Cú pháp: Selector::peseudo-element {
+Cú pháp: Selector::pseudo-element {
  }
  
  ::before
  ::after,
+ ::first-letter,
  ::first-line,
  ::selection,
  ::placeholder
@@ -18,19 +19,23 @@ Cú pháp: Selector::peseudo-element {
  .title::before {
     content: attr(data-index);
  } */
+ /* chọn dòng đầu tiên */
  p::first-line{
     color: red
     
  }
+ /* Chữ cái đầu văn bản */
  p::first-letter{
     color: green;
     font-size: 2rem;
     font-weight:bold ;
  }
+ /* bôi đen chọn văn bản */
  p::selection{
     background:black;
     color:#fff ;
  }
+ /* placeholder: chữ chìm */
  input::placeholder {
     color: red;
     font-style: italic;
