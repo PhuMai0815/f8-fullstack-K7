@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    position: relative;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    border-bottom-right-radius: 100%;
+    background: rgb(255, 255, 255);
+    color: #05a8f5;
+  }
+  body {
+    background-color: rgb(49, 168, 247);
+    overflow: hidden;
+  }
+  
+  .burger{
+    position: absolute;
+    color: white;
+    right: 10%;
+    top: 40%;
+    font-family: sans-serif;
+    width: 600px;
+    height: 200px;
+    text-align: right;
+  }
+  
+  .burger h2 {
+    font-size: 58px;
+  }
+  
+  .burger-content span {
+    font-size: 35px;
+  }
+  
+  .burger p {
+    font-size: 20px;
+    margin-top: 40px;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+  }  
+  nav .icon label {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 27px;
+  }
+  
+  .icon-arrow-right {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  nav .icon label i {
+    transition: transform 0.8s ease;
+  }
+  
+  :has(section nav .icon input:checked) i {
+    transform: rotate(180deg);
+  }
+  
+  :has(section nav .icon input:checked) .label-arrow i {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  :has(section nav .icon input:checked) .label-menu-bar i {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  :has(section nav .icon input:checked) nav {
+    animation: arrow-ani 1s linear both;
+  }
+  
+  :has(section nav .icon input:not(:checked)) nav {
+    animation: bars-ani 0.5s linear both;
+  }
+  
+  :has(nav .icon input:checked) .menu ul {
+    display: block;
+  }
+  
+  @keyframes arrow-ani {
+    99% {
+      width: 9999px;
+      height: 9999px;
+    }
+    100% {
+      width: 100vw;
+      height: 100vh;
+      border-radius: 0;
+    }
+  }
+  
+  @keyframes bars-ani {
+    0% {
+      width: 9999px;
+      height: 9999px;
+    }
+    100% {
+      border-bottom-right-radius: 100%;
+    }
+  }
+  
+  nav .menu ul {
+    position: absolute;
+    top: 60px;
+    list-style: none;
+    display: none;
+  }
+  
+  nav .menu ul li {
+    padding: 4px 0px;
+  }
+  
+  nav .menu ul li a:focus {
+    background-color: #eeedef;
+    color: #034966;
+  }
+  
+  nav .menu ul li a {
+    display: flex;
+    width: 220px;
+    height: 30px;
+    text-decoration: none;
+    color: #05a8f5;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    padding-left: 45px;
+  }
+  
+  
